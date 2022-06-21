@@ -1,0 +1,62 @@
+section{
+    display: flex;
+    flex-direction:row;
+}
+
+#game {
+   display:flex;
+   flex-direction:column;
+}
+
+section>img {
+    width:30%;
+    height: 30em;
+    align-self: center;
+
+}
+
+div article {
+    width: 20em;
+    height:20em;
+    margin-left: 18em;
+
+}
+div h1 {
+    margin-left: 15em;
+}
+#playerside {
+   display: flex;
+   flex-direction: row;
+   width:auto;
+   
+
+}
+#paper, #rock, #scissor, .together{
+    width: 20em;
+    height: 20em;
+}
+
+.hidden {
+    display: none;
+
+}
+
+#pictureOfBot>img{
+    width: 20em;
+    height: 20em;
+}
+
+#resultsOfMeAndBot {
+    border: 1px solid black;
+    width: 4em;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 300;
+    align-self: center;
+    margin-right: 22em;
+
+}
+
